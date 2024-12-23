@@ -1,0 +1,111 @@
+body {
+    font-family: "Carter One", serif;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+header {
+  display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    background-color: #333333;
+    color: white;
+    margin: auto;
+    height: 50px;
+    width: 100px;
+    font-family: "Carter One", serif;
+    border-radius: 10px;
+}
+
+button:hover {
+  background-color: #273731;
+  cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #444444;
+    color: white;
+}
+
+/* #444444 is dark mode colour */
+#content a {
+    display: block;
+    background-color: black;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 5px;
+    color: rgb(0, 191, 255);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#content #themeToggle {
+  display: block;
+  background-color: #333333;
+  color: white;
+  margin: auto;
+  height: 50px;
+  width: 100px;
+  font-family: "Carter One", serif;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#content #context {
+    background-color: none;
+    display: block;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#content a:hover {
+    opacity: 0.2;
+}
+
+#content #smallSquare1 {
+    display: block;
+    background: rgb(124, 183, 89);
+    color: black;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#content #smallSquare2 {
+    display: block;
+    background: rgb(183, 32, 18);
+    color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#content #smallSquare3 {
+    display: block;
+    background: rgb(255, 251, 0);
+    color: black;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+li a:hover {
+    background-color: #273731;
+}
+
+#active {
+    background-color: #04aa6d;
+}
