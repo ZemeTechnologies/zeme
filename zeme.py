@@ -26,7 +26,7 @@ def intro():
     while websitepromptloop:
         websiteprompt = input("Would you like to go to the Zeme Website? (y/n)\n")
         if websiteprompt == "y":
-            webbrowser.open("zemetechnologies.github.com", 2)
+            webbrowser.open("zemetechnologies.github.io", 2)
             websitepromptloop = False
         elif websiteprompt == "n":
             print("Continuing to Zeme Product Select.")
